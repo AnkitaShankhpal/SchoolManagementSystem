@@ -1,0 +1,42 @@
+﻿@model SchoolManagementSystem.Teacher
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Show";
+}
+
+<div class="container-fluid">
+    <h2>Show</h2>
+
+    <section id="featured-services" class="featured-services">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4 class="title"><a href="~/Teachers/Create"><i class="fas fa-users pr-1"></i>Add Teacher</a></h4>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <h4 class="title"><a href="~/Teachers/Index">View All Teacher</a></h4>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <h4 class="title"><a href="~/TeacherAttendances/Index">Teacher Attendance</a></h4>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
